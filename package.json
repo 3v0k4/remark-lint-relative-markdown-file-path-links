@@ -1,0 +1,46 @@
+{
+  "name": "remark-lint-relative-markdown-file-path-links",
+  "version": "0.1.0",
+  "description": "remark-lint rule to warn when a link to another markdown document (md/mdx) is not a relative file path with extension",
+  "license": "MIT",
+  "keywords": [
+    "remark",
+    "lint",
+    "rule",
+    "remark-lint-rule",
+    "relative",
+    "markdown",
+    "file-path",
+    "link"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/3v0k4/remark-lint-relative-markdown-file-path-links.git"
+  },
+  "bugs": "https://github.com/3v0k4/remark-lint-relative-markdown-file-path-links/issues",
+  "author": "Riccardo Odone <riccardo.odone@gmail.com> (https://odone.io)",
+  "contributors": [
+    "Riccardo Odone <riccardo.odone@gmail.com> (https://odone.io)"
+  ],
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/index.d.ts",
+    "dist/index.js"
+  ],
+  "dependencies": {
+    "@types/mdast": "^3.0.0",
+    "@types/node": "^18.15.5",
+    "unified": "^10.0.0",
+    "unified-lint-rule": "^2.0.0",
+    "unist-util-generated": "^2.0.0",
+    "unist-util-visit": "^4.0.0"
+  },
+  "scripts": {
+    "prebuild": "npm run clean",
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "test": "npm run build && cd test && npm run test"
+  }
+}
