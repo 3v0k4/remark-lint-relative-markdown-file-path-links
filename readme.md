@@ -81,7 +81,7 @@ There are no options.
 
 ## Examples
 
-See [test/test.md] or run the test with `npm test`.
+See [test/test.md](test/test.md) or run the test with `npm test`.
 
 ## License
 
