@@ -23,7 +23,9 @@
 ## Not ok
 
 [⛔️ no-extension](no-extension)
+[⛔️ no-extension/](no-extension/)
 [⛔️ no-extension#anchor](no-extension#anchor)
+[⛔️ no-extension/#anchor](no-extension/#anchor)
 [⛔️ ./no-extension](./no-extension)
 [⛔️ ./no-extension#anchor](./no-extension#anchor)
 [⛔️ ../no-extension](../no-extension)
@@ -36,3 +38,10 @@
 [⛔️ /file.mdx#anchor](/file.mdx#anchor)
 [⛔️ /path/to/file.mdx](/path/to/file.mdx)
 [⛔️ /path/to/file.mdx#anchor](/path/to/file.mdx#anchor)
+[⛔️ /path/to/folder](/path/to/folder)
+[⛔️ /path/to/folder/](/path/to/folder/)
+
+## Escape hatch
+
+<a href="/path/to/folder">/path/to/folder</a>
+<a href="/path/to/folder/">/path/to/folder/</a>
