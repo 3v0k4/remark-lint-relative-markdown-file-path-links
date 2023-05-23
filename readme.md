@@ -2,6 +2,8 @@
 
 [`remark-lint`](https://github.com/remarkjs/remark-lint) rule to warn when a link to another markdown document (md/mdx) is not a relative file path with extension.
 
+If you are using Docusaurus, this can be used in combination with remark-validate-links to [detect broken anchor links](https://github.com/facebook/docusaurus/issues/3321#issuecomment-1477543749).
+
 ## Contents
 
 *   [What is this?](#what-is-this)
